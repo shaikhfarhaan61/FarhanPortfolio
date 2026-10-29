@@ -9,7 +9,7 @@
 }
 
 header {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -60,3 +60,109 @@ header {
     color: #7d2ae8;
     background: transparent;
 }
+
+.home {
+     position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/Professional_Profile-removebg-preview.png');
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+
+    
+
+
+}
+
+.content {
+    max-width: 500px;
+    color: #555;
+
+
+}
+
+.content h2 {
+    font-size: 3em;
+
+}
+
+.content h2 span {
+    color: #7d2ae8;
+
+}
+
+.content h4 {
+    font-size: 2em;
+}
+
+.content p {
+    padding: 10px 0 40px 0;
+}
+
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    transition: .3s;
+
+
+
+}
+
+.btn-group a:hover:nth-child(1) {
+    color: #7d2ae8;
+    background: transparent;
+}
+
+.btn-group a:nth-child(2) {
+    color: #7d2ae8;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+
+.btn-group a:hover:nth-child(2) {
+    color: #fff;
+    background: #7d2ae8;
+}
+
+.social-icons {
+    bottom: 50px;
+    position: absolute;
+
+}
+
+.social-icons i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #7d2ae8;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #7d2ae8;
+    transition: .3s;
+    color: #fff
+}
+
+
+
+.social-icons i:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
+
